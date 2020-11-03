@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Indie Flower";
+}
+
+#main {
+  background: rgb(233, 231, 231);
+}
+
+header {
+  display: grid;
+  grid-template-rows: 75px 60px;
+  justify-items: center;
+  height: 120px;
+  margin-top: 20px;
+}
+
+#title {
+  font-size: 2em;
+  opacity: 0.8;
+}
+
+@media only screen and (min-width: 650px) {
+  #title {
+    font-size: 2.5em;
+    opacity: 0.8;
+  }
+}
+
+header p {
+  opacity: 0.5;
+}
+
+/*Figure and figcaption of image*/
+figure {
+  padding: 15px;
+  background-color: white;
+  margin: 15px;
+}
+
+figure #image {
+  display: block;
+  grid-template-rows: 1fr auto;
+  justify-items: center;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+figcaption {
+  text-align: center;
+  opacity: 0.6;
+  padding-top: 10px;
+}
+
+/*Section*/
+section {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+h3 {
+  text-align: center;
+  opacity: 0.9;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  line-height: 1.8;
+}
+
+li {
+  margin: 5px 0;
+}
+
+section p {
+  opacity: 0.6;
+  text-align: left;
+}
+
+blockquote {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 900;
+}
