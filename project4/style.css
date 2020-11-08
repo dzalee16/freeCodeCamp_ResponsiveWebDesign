@@ -1,0 +1,98 @@
+/*Settings*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "VT323";
+  background-color: rgb(235, 230, 230);
+}
+
+/*Main documentations*/
+#main-doc {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 322px;
+}
+
+/*Nav*/
+#navbar {
+  border: 1px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media only screen and (max-width: 815px) {
+  #navbar {
+    position: relative;
+  }
+
+  #main-doc {
+    position: relative;
+    left: 0;
+  }
+}
+
+#navbar-header {
+  font-size: 2em;
+  text-align: center;
+  margin: 15px 0;
+}
+
+#navbar > #nav-list {
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  height: 100%;
+  overflow-y: scroll;
+  width: 320px;
+}
+
+@media only screen and (max-width: 815px) {
+  #navbar > #nav-list {
+    height: 200px;
+    width: 100%;
+  }
+}
+
+.nav-item {
+  list-style-type: none;
+  border: 1px solid black;
+  padding: 14px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+}
+
+/*Main Section*/
+.main-section {
+  padding: 10px 50px;
+}
+
+.main-header {
+  font-size: 2em;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.main-section > p,
+li {
+  font-size: 1.2em;
+}
+
+ul {
+  margin-left: 35px;
+}
+
+.code {
+  background-color: rgb(221, 216, 216);
+  padding: 15px;
+}
